@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MUSIC BEATS</title>
+	<link href="https://fonts.googleapis.com/css2?family=Recursive&display=swap" rel="stylesheet">
+
+	<style>
+		
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: 'Recursive', sans-serif;
+		}
+
+		html{
+			font-size: 62.5%;
+		}
+
+		.center_div{
+			height: 100vh;
+			width: 100vw;
+			background: #222f3e;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.wave{
+			width: 1rem;
+			height: 15rem;
+			background-color: #8a7d73;
+			margin: 0 1rem;
+			border-radius: .4rem;
+			animation: waves 2s linear infinite;
+		}
+
+		@keyframes waves{
+			0%{
+				transform: scale(0);
+			}
+			50%{
+				transform: scale(1);
+			}
+			100%{
+				transform: scale(0);
+			}
+		}
+
+		.wave:nth-child(1){
+			animation-delay: 1s;
+		}
+		.wave:nth-child(2){
+			animation-delay: 1.4s;
+		}
+		.wave:nth-child(3){
+			animation-delay: 1.5s;
+		}.wave:nth-child(4){
+			animation-delay: 1.6s;
+		}.wave:nth-child(5){
+			animation-delay: 1.7s;
+		}.wave:nth-child(6){
+			animation-delay: 1.8s;
+		}.wave:nth-child(7){
+			animation-delay: 1.9s;
+		}.wave:nth-child(8){
+			animation-delay: 2s;
+		}.wave:nth-child(9){
+			animation-delay: 2.2s;
+		}.wave:nth-child(10){
+			animation-delay: 2.4s;
+
+	</style>
+
+</head>
+<body>
+
+	<div class="center_div">
+		<div class="wave"></div>
+		<div class="wave"></div>
+		<div class="wave"></div>
+		<div class="wave"></div>
+		<div class="wave"></div>
+		<div class="wave"></div>
+		<div class="wave"></div>
+		<div class="wave"></div>
+		<div class="wave"></div>
+		<div class="wave"></div>
+	</div>
+
+</body>
+</html>
